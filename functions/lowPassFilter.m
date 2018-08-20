@@ -1,4 +1,4 @@
-function [LeqFiltre,LpFiltre] = filtrePasseBasEXP(X,setting)
+function [LeqFiltre,LpFiltre] = lowPassFilter(X,setting)
 %% Y = filtrePasseBas(X,soundMix,varargin)
 % Fonction filtre pour un signal temporel x filtrer par un filtre de
 % Butterworth. Les paramètres se trouvent dans le structure soundMix :
